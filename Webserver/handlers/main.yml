@@ -1,0 +1,6 @@
+---
+# handlers file for Opdracht 1
+- name: apache2 uit/aanzetten
+  service:
+    name: apache2
+    state: restarted
