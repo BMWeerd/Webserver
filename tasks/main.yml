@@ -24,7 +24,7 @@
 - name: PHP testpagina
   ansible.builtin.copy:
     dest: /var/www/html/index.php
-    content: "<?Week 4 Opdracht 1 Bas Maarschalkerweerd :)(); ?>"
+    content: "Week 4 Opdracht 1 Bas Maarschalkerweerd :)"
     owner: www-data
     group: www-data
     mode: '0644'
